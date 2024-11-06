@@ -73,7 +73,6 @@ project('taisei', 'c',
 
         # You may want to change these for a debug build dir
         'buildtype=release',
-        'strip=true',
         'b_lto=true',
         'b_ndebug=if-release',
     ]
